@@ -27,23 +27,27 @@ if(a==100){
 
 内联代码块：` console.log('aa'); `
 
+单行代码：
+> hello world!
+
+多层嵌套
+> aaaaaaaaa
+>> bbbbbbbbb
+>>> cccccccccc
 
 我是表格：
-|     a     |        b        |      c       |
-|:---------:|:--------------- | ------------:|
-|   居中    | 左对齐           |       右对齐 |
-| ========= | =============== | ============ |
-
-
+ 
+|    a    |       b       |      c     |
+|:-------:|:------------- | ----------:|
+|   居中  |     左对齐    |   右对齐   |
+|aa|sss|sss|
+ 
 链接：
 
 内链式
-[百度1](http://www.baidu.com/"百度一下"){:target="_blank"}    
+[百度1](http://www.baidu.com/" 百度一下"){:target="_blank"}   
 
-引用式
-[百度2][2]{:target="_blank"}
-[2]: http://www.baidu.com/  "百度二下"
-
+ 
 邮箱链接
 <xxx@outlook.com>
 
