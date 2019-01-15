@@ -25,6 +25,7 @@ const router = new VueRouter({
   routes
 });
 
+// vue-router 后置钩子函数，设置页面标题，./i18n/title.json 文件中的配置来设置多语言
 router.afterEach(route => {
   const data = title[route.meta.lang];
   for (let val in data) {
